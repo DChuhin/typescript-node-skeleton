@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "lint-staged": {
-    "**/*": "eslint"
+    "*.ts": ["eslint", "prettier -c"]
   },
   "scripts": {
     "dev": "npx nodemon",
